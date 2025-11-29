@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:8.0.28
+    image: mysql:8.0
     container_name: mysql-container
     ports:
       - "23306:3306"
